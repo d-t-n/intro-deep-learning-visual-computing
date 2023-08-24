@@ -36,9 +36,9 @@ Despite its transformative capabilities, deep learning in visual computing comes
 ### Conclusion:
 
 Deep Learning has redefined the landscape of visual computing, enabling breakthroughs in image analysis, computer vision, and more. Its ability to automatically learn and extract intricate patterns from visual data has opened doors to applications ranging from medical diagnostics to entertainment. As technology advances, addressing challenges like interpretability and data scarcity will be pivotal in unlocking the full potential of deep learning in visual computing.
- 
- Topics:
- - Gain an understanding of the mathematics (Statistics, Probability, Calculus, Linear Algebra and optimization) needed for designing machine learning algorithms
+
+Topics:
+- Gain an understanding of the mathematics (Statistics, Probability, Calculus, Linear Algebra and optimization) needed for designing machine learning algorithms
 
 - Learn how machine learning models fit data and how to handle small and large datasets
 
