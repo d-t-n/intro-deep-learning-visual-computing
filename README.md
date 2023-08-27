@@ -105,3 +105,5 @@ Neural Networks: Leverage calculus for gradient computation during training and 
 
 #### Conclusion:
 A solid grasp of statistics, probability, calculus, linear algebra, and optimization is essential for designing and developing effective machine learning algorithms. These mathematical foundations enable practitioners to understand the underlying principles, optimize models, handle uncertainty, and make informed decisions throughout the ML pipeline. As machine learning continues to advance, a deep understanding of these mathematical concepts remains a fundamental skill for professionals in the field.
+
+Examples described in 1.-project.ipynb
