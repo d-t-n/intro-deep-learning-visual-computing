@@ -53,7 +53,7 @@ Deep Learning has redefined the landscape of visual computing, enabling breakthr
 
 ## 1. Gain an understanding of the mathematics needed for designing machine learning algorithms
 
-- Introduction:
+#### Introduction:
 Machine Learning (ML) algorithms have transformed industries by enabling computers to learn from data and make intelligent decisions. Behind the scenes of these algorithms lies a solid foundation of mathematics. Statistics, probability, calculus, linear algebra, and optimization are essential components that power the design and development of effective machine learning models. This comprehensive guide will delve into the significance of each mathematical discipline and how they interplay in the context of ML algorithm design.
 
 1. Statistics:
@@ -68,16 +68,28 @@ Probability theory quantifies uncertainty, a core aspect of machine learning. Pr
 
 - Applied Example: Naïve Bayes is a probabilistic classifier that assumes features are conditionally independent given the class label. It's used in spam email detection, where the probability of words occurring in spam or non-spam emails is used to classify new emails.
 
-Web Reference: Towards Data Science article on Naïve Bayes for text classification: towardsdatascience.com/naive-bayes-for-text-classification-2b8a88a94a7c
+- Web Reference: Towards Data Science article on Naïve Bayes for text classification: towardsdatascience.com/naive-bayes-for-text-classification-2b8a88a94a7c
 
 3. Calculus:
 Calculus provides the mathematical tools to understand how functions change. In ML, it's crucial for optimization and learning algorithms. Differential calculus helps in understanding gradients, which are instrumental in optimization methods like gradient descent—a fundamental technique for adjusting model parameters to minimize error. Integral calculus plays a role in calculating areas under curves, which is used in probability distributions and calculating expectations.
 
+- Applied Example: Gradient descent is a core optimization technique used in training machine learning models. It's employed to adjust model parameters iteratively to minimize the loss function.
+
+- Web Reference: Deep Learning Specialization on Coursera, covering gradient descent: coursera.org/specializations/deep-learning
+
 4. Linear Algebra:
 Linear algebra deals with vector spaces and linear mappings between them. In machine learning, data is often represented as vectors or matrices, and linear algebra facilitates efficient computation and manipulation of these representations. Concepts like eigenvalues, eigenvectors, and singular value decomposition (SVD) play a significant role in dimensionality reduction, feature extraction, and understanding the geometry of data in high-dimensional spaces.
 
+- Applied Example: Principal Component Analysis (PCA) is used for dimensionality reduction in machine learning. It's applied to datasets with high dimensions to identify the most important features.
+
+- Web Reference: Introduction to Linear Algebra by Khan Academy: khanacademy.org/math/linear-algebra
+
 5. Optimization:
 Optimization methods fine-tune model parameters to achieve the best performance. Gradient-based optimization techniques, like gradient descent and its variants (e.g., stochastic gradient descent), are used to minimize the loss function, which quantifies the difference between model predictions and actual data. Advanced optimization methods, such as convex optimization and constrained optimization, help tackle complex problems with specific constraints.
+
+- Applied Example: Support Vector Machines (SVMs) use optimization techniques to find the hyperplane that best separates different classes in a dataset.
+
+- Web Reference: Introduction to Support Vector Machines by Scikit-learn: scikit-learn.org/stable/modules/svm.html
 
 6. Integration in ML Algorithm Design:
 The integration of these mathematical disciplines is evident in the development of various machine learning algorithms. For instance:
@@ -87,5 +99,9 @@ The integration of these mathematical disciplines is evident in the development 
 - Principal Component Analysis (PCA): Relies on linear algebra to perform dimensionality reduction, enhancing computational efficiency.
 Neural Networks: Leverage calculus for gradient computation during training and linear algebra for matrix operations between layers.
 
-- Conclusion:
+- Applied Example: Neural networks, a cornerstone of deep learning, combine elements of calculus (backpropagation for gradient computation) and linear algebra (matrix operations in layers) for training complex models on large datasets.
+
+- Web Reference: Deep Learning Specialization on Coursera, exploring neural networks: coursera.org/specializations/deep-learning
+
+#### Conclusion:
 A solid grasp of statistics, probability, calculus, linear algebra, and optimization is essential for designing and developing effective machine learning algorithms. These mathematical foundations enable practitioners to understand the underlying principles, optimize models, handle uncertainty, and make informed decisions throughout the ML pipeline. As machine learning continues to advance, a deep understanding of these mathematical concepts remains a fundamental skill for professionals in the field.
