@@ -37,7 +37,7 @@ Despite its transformative capabilities, deep learning in visual computing comes
 
 Deep Learning has redefined the landscape of visual computing, enabling breakthroughs in image analysis, computer vision, and more. Its ability to automatically learn and extract intricate patterns from visual data has opened doors to applications ranging from medical diagnostics to entertainment. As technology advances, addressing challenges like interpretability and data scarcity will be pivotal in unlocking the full potential of deep learning in visual computing.
 
-Topics:
+## Topics:
 - Gain an understanding of the mathematics (Statistics, Probability, Calculus, Linear Algebra and optimization) needed for designing machine learning algorithms
 
 - Learn how machine learning models fit data and how to handle small and large datasets
@@ -49,3 +49,35 @@ Topics:
 - Learn to transfer knowledge across neural networks to develop models for applications with limited data
 
 - Get introduced to deep learning approaches for unsupervised learning
+
+
+## 1. Gain an understanding of the mathematics needed for designing machine learning algorithms
+
+- Introduction:
+Machine Learning (ML) algorithms have transformed industries by enabling computers to learn from data and make intelligent decisions. Behind the scenes of these algorithms lies a solid foundation of mathematics. Statistics, probability, calculus, linear algebra, and optimization are essential components that power the design and development of effective machine learning models. This comprehensive guide will delve into the significance of each mathematical discipline and how they interplay in the context of ML algorithm design.
+
+1. Statistics:
+Statistics forms the bedrock of machine learning. It involves techniques for collecting, analyzing, interpreting, and presenting data. For ML, statistics is crucial in understanding data distributions, measuring central tendencies, and assessing the spread of data. Concepts such as mean, median, mode, variance, and standard deviation are fundamental in preparing data for ML models. Moreover, hypothesis testing, confidence intervals, and p-values aid in assessing the significance of results and making informed decisions about model performance.
+
+2. Probability:
+Probability theory quantifies uncertainty, a core aspect of machine learning. Probability concepts, like random variables, probability distributions, and conditional probability, are vital for modeling uncertainty in data. In ML, probabilistic models such as Naïve Bayes, Hidden Markov Models, and Gaussian Processes leverage probability theory to make predictions and classifications based on observed data.
+
+3. Calculus:
+Calculus provides the mathematical tools to understand how functions change. In ML, it's crucial for optimization and learning algorithms. Differential calculus helps in understanding gradients, which are instrumental in optimization methods like gradient descent—a fundamental technique for adjusting model parameters to minimize error. Integral calculus plays a role in calculating areas under curves, which is used in probability distributions and calculating expectations.
+
+4. Linear Algebra:
+Linear algebra deals with vector spaces and linear mappings between them. In machine learning, data is often represented as vectors or matrices, and linear algebra facilitates efficient computation and manipulation of these representations. Concepts like eigenvalues, eigenvectors, and singular value decomposition (SVD) play a significant role in dimensionality reduction, feature extraction, and understanding the geometry of data in high-dimensional spaces.
+
+5. Optimization:
+Optimization methods fine-tune model parameters to achieve the best performance. Gradient-based optimization techniques, like gradient descent and its variants (e.g., stochastic gradient descent), are used to minimize the loss function, which quantifies the difference between model predictions and actual data. Advanced optimization methods, such as convex optimization and constrained optimization, help tackle complex problems with specific constraints.
+
+6. Integration in ML Algorithm Design:
+The integration of these mathematical disciplines is evident in the development of various machine learning algorithms. For instance:
+
+- Linear Regression: Involves statistical techniques to estimate the relationship between variables, while calculus optimizes model parameters.
+- Support Vector Machines: Utilizes linear algebra for mapping data to higher dimensions and optimization for finding the best separating hyperplane.
+- Principal Component Analysis (PCA): Relies on linear algebra to perform dimensionality reduction, enhancing computational efficiency.
+Neural Networks: Leverage calculus for gradient computation during training and linear algebra for matrix operations between layers.
+
+- Conclusion:
+A solid grasp of statistics, probability, calculus, linear algebra, and optimization is essential for designing and developing effective machine learning algorithms. These mathematical foundations enable practitioners to understand the underlying principles, optimize models, handle uncertainty, and make informed decisions throughout the ML pipeline. As machine learning continues to advance, a deep understanding of these mathematical concepts remains a fundamental skill for professionals in the field.
