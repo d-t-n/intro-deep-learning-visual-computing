@@ -59,8 +59,16 @@ Machine Learning (ML) algorithms have transformed industries by enabling compute
 1. Statistics:
 Statistics forms the bedrock of machine learning. It involves techniques for collecting, analyzing, interpreting, and presenting data. For ML, statistics is crucial in understanding data distributions, measuring central tendencies, and assessing the spread of data. Concepts such as mean, median, mode, variance, and standard deviation are fundamental in preparing data for ML models. Moreover, hypothesis testing, confidence intervals, and p-values aid in assessing the significance of results and making informed decisions about model performance.
 
+- Applied Example: A common use of statistics in machine learning is in evaluating the performance of classification models. Metrics like accuracy, precision, recall, and F1-score help quantify how well a model is performing on different classes.
+
+- Web Reference: Scikit-learn's documentation on model evaluation metrics: scikit-learn.org/stable/modules/model_evaluation.html
+
 2. Probability:
 Probability theory quantifies uncertainty, a core aspect of machine learning. Probability concepts, like random variables, probability distributions, and conditional probability, are vital for modeling uncertainty in data. In ML, probabilistic models such as Naïve Bayes, Hidden Markov Models, and Gaussian Processes leverage probability theory to make predictions and classifications based on observed data.
+
+- Applied Example: Naïve Bayes is a probabilistic classifier that assumes features are conditionally independent given the class label. It's used in spam email detection, where the probability of words occurring in spam or non-spam emails is used to classify new emails.
+
+Web Reference: Towards Data Science article on Naïve Bayes for text classification: towardsdatascience.com/naive-bayes-for-text-classification-2b8a88a94a7c
 
 3. Calculus:
 Calculus provides the mathematical tools to understand how functions change. In ML, it's crucial for optimization and learning algorithms. Differential calculus helps in understanding gradients, which are instrumental in optimization methods like gradient descent—a fundamental technique for adjusting model parameters to minimize error. Integral calculus plays a role in calculating areas under curves, which is used in probability distributions and calculating expectations.
