@@ -219,6 +219,7 @@ Feedback Loop and Iteration: Establish a feedback loop to gather user feedback a
 Conclusion:
 Designing deep neural networks for real-world computer vision applications involves a systematic approach, encompassing problem understanding, data preprocessing, architecture selection, training, evaluation, deployment, and ongoing monitoring. By following this comprehensive guide and staying updated with advancements in the field, AI practitioners can effectively develop and deploy robust computer vision models for various applications.
 
+Examples described in 4.-project.ipynb
 
 ## 5. Knowledge Transfer in Neural Networks: Enhancing Models with Limited Data
 
