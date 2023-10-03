@@ -179,15 +179,15 @@ Understanding the intricate workings of different components within deep neural 
 ## 4. Design deep neural networks for real-world applications in computer vision
 Designing deep neural networks for real-world applications in computer vision is a multifaceted and complex task that requires a combination of domain knowledge, understanding of neural network architectures, data preprocessing, model evaluation, and fine-tuning. Computer vision applications aim to enable machines to interpret and understand visual data, such as images and videos, and make informed decisions based on that understanding. Below is a comprehensive guide to designing effective deep neural networks for computer vision applications:
 
-Understanding the Problem and Data:
+1. Understanding the Problem and Data:
 Problem Understanding: Begin by thoroughly understanding the computer vision problem you want to solve. Identify the specific task, such as image classification, object detection, segmentation, or image generation.
 
-Data Collection and Exploration: Collect a diverse and representative dataset for the problem. Explore the data to understand its characteristics, such as data distribution, class imbalance, and the types of features present in the images.
+2. Data Collection and Exploration: Collect a diverse and representative dataset for the problem. Explore the data to understand its characteristics, such as data distribution, class imbalance, and the types of features present in the images.
 
-Preprocessing and Augmentation:
+3. Preprocessing and Augmentation:
 Data Preprocessing: Prepare the data for the model by applying necessary preprocessing steps such as resizing, normalization, and handling missing values. Preprocessing ensures that the data is in a suitable format for the neural network.
 
-Data Augmentation: Augment the data to increase its diversity and improve model generalization. Techniques like rotation, flipping, scaling, and color adjustments can be employed to augment the dataset.
+4. Data Augmentation: Augment the data to increase its diversity and improve model generalization. Techniques like rotation, flipping, scaling, and color adjustments can be employed to augment the dataset.
 
 Model Architecture Selection:
 Selecting Neural Network Architecture: Choose an appropriate neural network architecture based on the problem. Convolutional Neural Networks (CNNs) are commonly used for computer vision tasks due to their ability to capture spatial patterns.
