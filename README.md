@@ -286,6 +286,7 @@ Sparse coding is a technique that aims to represent data as a linear combination
 
 In summary, deep learning approaches for unsupervised learning aim to discover hidden patterns, features, and representations in the data without relying on labeled examples. Autoencoders, VAEs, GANs, self-supervised learning, and other methods play a crucial role in unsupervised learning by extracting meaningful and high-level representations from the data, enabling various applications in machine learning and artificial intelligence.
 
+Examples described in 6.-project.ipynb
 
 
 
