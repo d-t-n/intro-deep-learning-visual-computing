@@ -50,7 +50,7 @@ Deep Learning has redefined the landscape of visual computing, enabling breakthr
 
 - Get introduced to deep learning approaches for unsupervised learning
 
-- Transformers and LLMs
+- Transformers, Self-Attention and LLMs
 
 
 ## 1. Gain an understanding of the mathematics needed for designing machine learning algorithms
@@ -288,8 +288,29 @@ In summary, deep learning approaches for unsupervised learning aim to discover h
 
 Examples described in 6.-project.ipynb
 
+## 7. Transformers, Self-Attention, and Large Language Models (LLMs)
 
+- Overview
+Transformers are a type of deep learning model that has gained significant attention in the field of natural language processing (NLP) due to their ability to handle long-range dependencies and capture contextual information effectively. The fundamental building block of Transformers is the self-attention mechanism, which enables the model to weigh different words in a sentence differently during processing. Language Models (LMs) based on Transformers, often referred to as Language Models with self-attention, have shown state-of-the-art performance in various NLP tasks.
 
+- Self-Attention Mechanism
+The self-attention mechanism is a mechanism that weighs the importance of each word in a sentence based on its relationship with all other words in the sentence. This mechanism allows the model to give higher importance to certain words depending on the context. The self-attention score for a word in a sentence is calculated using the following equation:
+
+![Alt text](image-1.png)
+
+​
+The softmax function is applied row-wise, producing a probability distribution over the words for each word in the sentence.
+
+- Transformers Architecture
+The Transformers architecture consists of several layers of self-attention and feedforward neural networks. Each layer processes the input in parallel and consists of the following sub-modules:
+
+1. Multi-Head Self-Attention: This module involves multiple sets of learnable query, key, and value matrices, allowing the model to attend to different parts of the input in parallel.
+2. Positional Encoding: Since Transformers don't inherently understand the order of words in a sentence, positional encodings are added to give the model information about the positions of words in the input sequence.
+3. Feedforward Neural Networks: These networks are applied independently to each position.
+The output of each sub-module is combined using concatenation and linear transformations to produce the output of the layer.
+
+- Language Models with Self-Attention
+Language Models based on Transformers utilize the self-attention mechanism to predict the next word in a sequence given the preceding context. These models are trained on large text corpora and learn to generate coherent and contextually appropriate text. The training objective typically involves maximizing the likelihood of the next word in a sentence.
 
 
 
