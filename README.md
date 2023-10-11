@@ -312,6 +312,7 @@ The output of each sub-module is combined using concatenation and linear transfo
 - Language Models with Self-Attention
 Language Models based on Transformers utilize the self-attention mechanism to predict the next word in a sequence given the preceding context. These models are trained on large text corpora and learn to generate coherent and contextually appropriate text. The training objective typically involves maximizing the likelihood of the next word in a sentence.
 
+Example described in 7.-project.ipynb
 
 
 
